@@ -13,11 +13,12 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-rate-limit": "^6.4.0",
     "nodemon": "^2.0.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   },
-  "devDependencies": {},
   "description": ""
 }
