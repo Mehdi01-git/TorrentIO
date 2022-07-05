@@ -357,6 +357,6 @@ app.use("/", (req, res) => {
     "Welcome to 1337x, NyaaSi, YTS, PirateBay, Torlock, EzTvio, TorrentGalaxy, Rarbg, Zooqle, KickAss, Bitsearch, Glodls, MagnetDL, Limetorrent, TorrentFunk, TorrentProject and Ettv Central Unoffical API"
   );
 });
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 console.log("Listening on PORT : ", PORT);
 app.listen(PORT);
